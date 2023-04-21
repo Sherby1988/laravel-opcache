@@ -34,9 +34,9 @@ class Clear extends Command
         $response->throw();
 
         if ($response['result']) {
-            $this->info('OPcache cleared');
+            $this->components->info('OPcache cleared');
         } else {
-            $this->error('OPcache not configured');
+            $this->components->error('OPcache not configured');
 
             return 2;
         }
