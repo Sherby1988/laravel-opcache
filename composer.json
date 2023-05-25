@@ -1,5 +1,5 @@
 {
-    "name": "resido-fhm/laravel-opcache",
+    "name": "sherby1988/laravel-opcache",
     "description": "PHP OPcache Artisan commands for Laravel.",
     "keywords": [
         "appstract",
